@@ -1,4 +1,4 @@
-<main class="flex flex-col h-full p-3">
+<main class="flex flex-col h-full">
     <h1>Inicia sesión</h1>
     <form action="/login" method="post" class="w-full mt-5">
         <fieldset class="fieldset">
@@ -19,7 +19,7 @@
         <input type="submit" class="btn btn-info" value="Iniciar sesión">
     </form>
 
-    <section class="flex justify-between text-info text-xs mt-auto">
+    <section class="flex justify-between text-info text-xs mt-3">
         <a href="/account/create">¿No tienes cuenta? Crea una aquí</a>
         <a href="/account/restorePassword">¿Olvidaste tu contraseña?</a>
     </section>
