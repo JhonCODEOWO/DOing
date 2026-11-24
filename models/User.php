@@ -2,6 +2,8 @@
 
 namespace Models;
 
+use Core\ActiveRecord;
+
 /**
  * A sample of a User model to handle all your records using ActiveRecord, feel free to adapt it.
  * 
