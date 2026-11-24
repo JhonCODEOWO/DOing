@@ -1,0 +1,19 @@
+{
+  "name": "MiniFramework",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "daisyui": "^5.8.2",
+    "tailwindcss": "^4.3.5"
+  }
+}
